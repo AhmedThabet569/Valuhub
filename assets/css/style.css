@@ -1797,7 +1797,7 @@ section#HeadQuote .signBy {
   /* background: linear-gradient(0deg, rgb(0 0 0 / 40%), rgb(0 0 0 / 50%)),
     url(../img//missin-image.png) center no-repeat; */
   background:
-    url(../img/missin-image.jpg) center no-repeat;
+    url('../img/missin_image.jpg') center no-repeat;
   background-size: cover;
   height: 100vh;
 
