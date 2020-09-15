@@ -616,7 +616,7 @@ section {
   min-height: 400px; */
   width: 100%;
   position: absolute;
-  min-height: 730px;
+  min-height: 630px;
   min-width: 450px;
 
 }
@@ -1799,7 +1799,7 @@ section#HeadQuote .signBy {
   background:
     url('../img/missin_image.jpg') center no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
 
 }
 
@@ -1905,9 +1905,9 @@ i.bx {
 }
 
 .objective-icons ul li img {
-  float: left;
-  padding-right: 17px;
-  width: 70px
+    float: left;
+    padding-right: 17px;
+    min-width: 70px;
 }
 
 .objective h3 {
@@ -1958,4 +1958,44 @@ i.bx {
  .objective-icons {
     display: block;
   }
+}
+
+#hero.header-website {
+  background: url(../img/V.png) no-repeat;
+  background-size: 30%;
+  height: 100vh;
+  background-position: bottom left;
+  margin-top: 90px;
+}
+.handler {
+  background: url('../img/handler.png') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
+  color: #ee706c;
+}
+.nav-menu a {
+  color: #000000;
+}
+.our-team-one img {
+  width: 150px;
+}
+.our-team {
+  display: flex;
+}
+.our-team .our-team-one {
+  width: 33.3333%;
+}
+.our-team-one h4{
+ color: #1c495f;
+}
+.our-team-one .job-desc{
+color: #ee706c !important;
+}
+.our-team-one .team-summary {
+  font-size: 12px;
+  color: #000;
 }
