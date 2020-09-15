@@ -1738,7 +1738,7 @@ h6 {
 
 #hero .carousel-inner .carousel-item {
   background: linear-gradient(0deg, rgb(67 142 149 / 50%), rgb(67 142 149 / 50%)),
-    url('../img/image-header.png');
+    url('../img/image_header.jpg');
   background-color: rgb(67 142 149 / 50%);
 }
 
@@ -1797,7 +1797,7 @@ section#HeadQuote .signBy {
   /* background: linear-gradient(0deg, rgb(0 0 0 / 40%), rgb(0 0 0 / 50%)),
     url(../img//missin-image.png) center no-repeat; */
   background:
-    url(../img//missin-image.png) center no-repeat;
+    url(../img/missin-image.jpg) center no-repeat;
   background-size: cover;
   height: 100vh;
 
@@ -1954,8 +1954,7 @@ i.bx {
     min-height: unset;
      min-width: unset;
   }
-  }
-
+  
  .objective-icons {
     display: block;
   }
