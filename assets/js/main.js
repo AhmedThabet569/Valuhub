@@ -6,6 +6,7 @@
 */
 !(function($) {
   "use strict";
+  
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 1;
@@ -17,9 +18,9 @@
 
         var scrollto = target.offset().top - scrolltoOffset;
 
-        if ($(this).attr("href") == '#header') {
-          scrollto = 0;
-        }
+        // if ($(this).attr("href") == '#header') {
+        //   scrollto = 0;
+        // }
 
         $('html, body').animate({
           scrollTop: scrollto
