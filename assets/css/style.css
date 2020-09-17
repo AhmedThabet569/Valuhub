@@ -2402,3 +2402,6 @@ section#HeadQuote .image img {
         max-height: 90px;
   }
 }
+.search_icon_red {
+  border: 1px solid #ddd !important; 
+}
