@@ -2432,3 +2432,10 @@ section#HeadQuote .image img {
   background-size: contain;
   background-position: center;
 }
+iframe{
+      margin: auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
