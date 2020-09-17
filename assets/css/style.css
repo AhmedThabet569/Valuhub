@@ -2395,4 +2395,9 @@ section#HeadQuote .image img {
     padding-top: 0px;
     max-height: 435px !important;
   }
+  .img50 {
+    width: unset !important;
+    max-width: 90px !important;
+    min-width: unset !important;
+  }
 }
