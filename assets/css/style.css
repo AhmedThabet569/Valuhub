@@ -1675,7 +1675,7 @@ section {
 }
 
 .search_icon {
-  width: 12%;
+  max-width: 35px;
   border: 1px solid #fff;
   padding: 9px;
   border-left: unset;
@@ -2311,8 +2311,7 @@ div#meetTeam .meet {
   padding-bottom: 0px;
 }
 .search_icon {
-  width: 12%;
-  
+  max-width: 35px;
   padding: 5px;
   border-left: unset;
 }
@@ -2334,4 +2333,23 @@ html,body{
 }
 .second-page .mobile-nav-toggle i {
   color: #000;
+}
+.search_icon {
+ max-width: 35px;
+  border: 1px solid #fff;
+  padding: 9px;
+  border-left: unset;
+}
+section#HeadQuote .image img {
+  width: 100%;
+  position: static;
+  min-height: unset !important;
+  max-width: 450px;
+  min-width: unset !important;
+  padding-top: 65px;
+}
+.img50 {
+  width: unset !important;
+  max-width: 80px !important;
+  min-width: unset !important;
 }
