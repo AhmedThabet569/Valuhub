@@ -2380,7 +2380,7 @@ section#HeadQuote .image img {
 }
 @media(min-width:1200px){
   .search_icon {
-    max-width: 29px !important;
+    max-width: 35px !important;
     border: 1px solid #fff;
     padding: 4px !important;
     border-left: unset;
