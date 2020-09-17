@@ -2386,4 +2386,13 @@ section#HeadQuote .image img {
     border-left: unset;
     height: 38px !important;
   }
+  section#HeadQuote .image img {
+    /* width: 100%; */
+    /* position: static; */
+    min-height: unset !important;
+    max-width: 450px;
+    min-width: unset !important;
+    padding-top: 0px;
+    max-height: 435px !important;
+  }
 }
